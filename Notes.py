@@ -46,7 +46,7 @@ say_hi("Jalen")
 def print_age(name, age):
     print("%s is %d years old" % (name, age))
     age = age + 1 # age = age + 1
-    print("Next year, %s will be %d years old %" % (name, age))
+    print("Next year, %s will be %d years old" % (name, age))
 
 
 print_age("Jalen", 15)
@@ -78,3 +78,34 @@ def grade_calc(percentage):
         return "F"
 
     grade_calc(92)
+
+
+    print(grade_calc(59))
+
+'''Write a function called  "happy_bday"
+that "sings" (prints) happy birthday
+
+it must take one parameter called "name"
+'''
+
+
+def happy_bday(name):
+    print("happy birthday to you")
+    print("happy brithday to you")
+    print("happy brithday dear " + name)
+    print("happy brithday to you")
+
+happy_bday("Jalen")
+
+# Loops
+
+
+for num in range(10):
+    print(num + 1)
+
+
+
+
+# random numbers
+import random # this should be on line 1
+print(random.randint(0, 1000))
