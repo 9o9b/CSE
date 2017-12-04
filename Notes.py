@@ -108,4 +108,16 @@ for num in range(10):
 
 # random numbers
 import random # this should be on line 1
-print(random.randint(0, 1000))
+print(random.randint(0, 500))
+
+c = '1'
+print(c == 1)
+print(int(c ) ==1)
+print(c == str(1))
+
+
+# comparisons
+
+print(1 == 1)  # use a double equal sign
+print(1 != 2)  # 1 is not equal to 2
+print(not False)
