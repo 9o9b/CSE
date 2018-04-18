@@ -1,7 +1,7 @@
 class Item(object):
         self.name = name
 
-    def pick_up(self)::
+    def pick_up(self):
 
         print("You pick up the %s" % self.name)
 
@@ -14,6 +14,7 @@ class Weapon(Item):
 
     def attack(self):
         print("You attack with the %s" % self.name)
+
 
 
 bat = Weapon("Bat", 10)
